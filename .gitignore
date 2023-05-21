@@ -1,0 +1,23 @@
+### .gitignore
+#
+# This file determines which files and/or file types Git allows as a part of
+# the project.
+#
+
+## Ignore everything.
+
+*
+
+## Allow specific files.
+
+!.gitignore
+
+!.gitattributes
+
+!LICENSE
+
+!**/README.md
+
+!requirements.txt
+
+!run.py

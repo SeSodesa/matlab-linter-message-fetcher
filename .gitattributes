@@ -1,0 +1,11 @@
+### gitattributes
+#
+# Determines which files are to be interpreted as text files. A text file will
+# have its line endings normalized when the file enters the project Git index,
+# among possibly other things.
+#
+
+*.py       text
+*.md       text
+*.txt      text
+LICENSE    text

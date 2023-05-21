@@ -16,7 +16,7 @@ The project has been tested with Python 3.10, so that is the version of
 CPython you should install. Once Python is in place, you should set up a
 virtual environment for this project in a folder of your choosing
 ([docs][venv]). The repository contains a
-`[requirements.txt](./requirements.txt)` file, which lists the dependencies
+[`requirements.txt`](./requirements.txt) file, which lists the dependencies
 needed. Install them as instructed in the documentation ([docs][reqs]).
 
 [venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
@@ -38,4 +38,4 @@ by the program, this should be taken into account.
 
 ## License
 
-See the `[LICENSE](./LICENSE)` file.
+See the [`LICENSE`](./LICENSE) file.

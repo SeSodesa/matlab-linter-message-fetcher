@@ -2,9 +2,9 @@
 
 This is a small Python 3 script that fetches the linter messages of Matlab
 from the MathWorks website. The need for this comes from the fact, that before
-the function `[codeIssues]` was introduced in R2022b, Matlab had no
-(documented) programmatic way of listing the severities of its linter messages
-when using the linters `[mlint]` or `[checkcode]`.
+the function [`codeIssues`][codeIssues] was introduced in R2022b, Matlab had
+no (documented) programmatic way of listing the severities of its linter
+messages when using the linters [`mlint`][mlint] or [`checkcode`][checkcode].
 
 [codeIssues]: https://se.mathworks.com/help/matlab/ref/codeissues.html
 [checkcode]: https://se.mathworks.com/help/matlab/ref/checkcode.html

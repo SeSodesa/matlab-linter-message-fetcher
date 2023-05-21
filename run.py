@@ -38,7 +38,7 @@ def run(message_index_url: str):
 
 	print(" Check ID ␟ Severity ␟ Message ␟ Can be disabled")
 
-	# Then print
+	# Then print each linter message.
 
 	for row in table_rows:
 

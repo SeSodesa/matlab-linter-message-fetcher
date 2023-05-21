@@ -24,7 +24,7 @@ needed. Install them as instructed in the documentation ([docs][reqs]).
 
 ## Usage
 
-The package is used by invoking the `[run.py](./run.py)` with Python:
+The package is used by invoking the [`run.py`](./run.py) with Python:
 
 	python3.10 run.py [Matlab linter message index]
 

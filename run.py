@@ -24,19 +24,19 @@ and parses it for the messages and their severities, which is then prints to
 standard output.
 
 """
-def run(message_index_url: str):
+def run ( message_index_url : str ):
 
 	print ( "\nRunning Matlab linter message fetcher on", message_index_url, file=sys.stderr )
 
 	page = requests.get ( message_index_url )
 
-	soup = BeautifulSoup( page.content, "html.parser" )
+	soup = BeautifulSoup ( page.content, "html.parser" )
 
 	table_rows = soup.find_all ( "tr" )
 
 	# Print header row.
 
-	print(" Check ID ␟ Severity ␟ Message ␟ Can be disabled")
+	print ( " Check ID ␟ Severity ␟ Message ␟ Can be disabled" )
 
 	# Then print each linter message.
 
@@ -88,4 +88,4 @@ if __name__ == "__main__":
 
 		message_index_url = DEFAULT_INDEX_URL
 
-	run(message_index_url)
+	run ( message_index_url )

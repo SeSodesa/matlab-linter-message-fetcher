@@ -32,6 +32,10 @@ where the argument to the linter message index is optional, if using the default
 <https://se.mathworks.com/help/matlab/matlab_env/index-of-code-analyzer-checks.html>
 works.
 
+**Note:** the output of the program uses the ASCII unit separator character
+`␟` as a column separator. If one is reading the data produced by the program,
+this should be taken into account.
+
 ## License
 
 See the `[LICENSE](./LICENSE)` file.
